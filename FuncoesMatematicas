@@ -1,0 +1,21 @@
+package funcoesmatematicas;
+import java.util.Scanner;
+public class funcoes {
+	public static void main (String[] args) {
+		Scanner sc = new Scanner (System.in);
+		int x, y;
+		System.out.println("Enter a number: ");
+		x = sc.nextInt();
+		System.out.println("Enter a number: ");
+		y = sc.nextInt();
+		var absolutX = Math.abs(x);
+		var absolutY = Math.abs(y);
+		int result = absolutX + absolutY;
+		System.out.printf("Sum = %d + %d = %d ", x, y, result);
+		
+		
+		
+		
+		
+		sc.close();
+	}
